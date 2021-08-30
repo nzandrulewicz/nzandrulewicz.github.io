@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#topBar {
+    width: 100%;
+    height: 5vw;
+    min-height: 25px;
+    background-color: #2A5170;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: Bahnschrift;
+    color: white;
+    line-height: 5vw; /*In reference with the .topBar height*/
+    padding-left: 2vw;
+}
+
+#topNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.topNavItem {
+    font-size: 1.5vw;
+    float: left;
+    font-family: Bahnschrift;
+    color: white;
+    line-height: 5vw;
+}
+
+.topNavItem a {
+    color: white;
+    padding: 5vw 2vw;
+    text-decoration: none;
+}
+
+.topNavItem a:hover {
+    background-color: #2a475d;
+}
+
+#header {
+    margin-top: none;
+    width: 100%;
+    height: 45vw;
+    min-height: 25px;
+    background-color: #2c98f0;
+    text-align: center;
+}
+
+.picture {
+    margin-top: 5%;
+    width: 15vw;
+    border-radius: 50%;
+    border: 1vw solid #2A5170;
+}
+
+#name {
+    font-size: 4vw;
+    font-family: Bahnschrift;
+    color: white;
+}
+
+#headerLine {
+    width: 30%;
+    color: white;
+    background-color: white;
+    height: .1vw;
+}
+
+#occupation {
+    font-size: 2vw;
+    font-family: Bahnschrift;
+    color: white;
+    margin-top: 5%;
+}
+
+#wip {
+    background-color: red;
+    padding: 1vw;
+    font-family: Bahnschrift;
+}
+
+section {
+    font-family: Bahnschrift;
+}
+
+section:nth-child(even) {
+    background: #eaf1f1;
+}
+
+#aboutMe {
+    display: grid;
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+#aboutMeText {
+    text-align: center;
+    font-size: 2em;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+#education {
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+#educationHeader {
+    font-size: 2em;
+    text-align: center;
+}
+
+#towsonText {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#towsonSeal {
+    display: block;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cecilText {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#cecilSeal {
+    display: block;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experience {
+    display: grid;
+    height: 50vh;
+}
+
+#interests {
+    display: grid;
+    height: 50vh;
+}
+
+#contactMe {
+    display: grid;
+    height: 50vh;
+}
+
+.sectionHeader {
+    font-size: 2em;
+    text-align: center;
+}
